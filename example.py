@@ -1,4 +1,4 @@
-from minecraftTellrawGenerator import minecraftTellrawGenerator as mctellraw
+from minecraftTellrawGenerator import MinecraftTellRawGenerator as mctellraw
 
 hover = mctellraw(text='Hooooooooooover text', bold=True, color='blue')
 
