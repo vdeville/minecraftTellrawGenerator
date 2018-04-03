@@ -50,7 +50,8 @@ class MinecraftTellRawGenerator:
     @staticmethod
     def multiple_tellraw(*tellraws):
         return_list = ','.join(str(tellraw) for tellraw in tellraws)
-        return '[' + return_list + ']'
+        # Double quote is add to avoid parent heriarchy of Events
+        return '["",' + return_list + ']'
 
     def __str__(self):
         return self.get_json()
