@@ -11,7 +11,7 @@ This package was only tested on Python 3.6.5
 ### Example
 Import module and let's go !
 ```python
-import MinecraftTellRawGenerator as mctellraw
+from minecraftTellrawGenerator import MinecraftTellRawGenerator as mctellraw
 
 hover = mctellraw(text='Hooooooooooover text', bold=True, color='blue')
 
