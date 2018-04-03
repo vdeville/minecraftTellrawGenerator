@@ -84,6 +84,9 @@ print('[' + str(a) + ', ' + str(b) + ', ' + str(c) + ']')
 ]
 ```
 
+##### In game
+![Example](img/screenshot.png)
+
 ## Authors
 
 Valentin DEVILLE [[Twitter](https://twitter.com/MyTheValentinus)]
