@@ -1,10 +1,12 @@
 clean:
-	rm -rf build/ dist/
+	rm -rf build/ dist/ *egg-info/
 
-release:
-	python setup.py sdist bdist_wheel
+release: build
 	twine upload dist/*
 
-release_test: clean
-	python setup.py sdist bdist_wheel
+release_test: build
 	twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+
+build: clean
+	python setup.py sdist bdist_wheel
+
