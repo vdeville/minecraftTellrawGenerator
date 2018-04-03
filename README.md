@@ -3,10 +3,10 @@
 This is simple python package that help you to create minecraft tellraw command for yours scripts written in python
 
 ### Requirements
-This package was only tested on Python 3.6.5
+This package was only tested on Python 3
 
 ### Install
-``pip install minecraftTellrawGenerator``
+``pip install -U minecraftTellrawGenerator``
 
 ### Example
 Import module and let's go !
@@ -16,7 +16,7 @@ from minecraftTellrawGenerator import MinecraftTellRawGenerator as mctellraw
 hover = mctellraw(text='Hooooooooooover text', bold=True, color='blue')
 
 a = mctellraw(
-    text='My super text',
+    text='My super text ',
     color='light_purple',
     italic=True,
     bold=True,
@@ -27,7 +27,7 @@ a = mctellraw(
 
 
 b = mctellraw(
-    text="Another text",
+    text="Another text ",
     underlined=True,
     strikethrough=True
     )
@@ -51,7 +51,7 @@ print('[' + str(a) + ', ' + str(b) + ', ' + str(c) + ']')
 ```json
 [
    {
-      "text":"My super text",
+      "text":"My super text ",
       "color":"light_purple",
       "bold":true,
       "italic":true,
@@ -70,7 +70,7 @@ print('[' + str(a) + ', ' + str(b) + ', ' + str(c) + ']')
       }
    },
    {
-      "text":"Another text",
+      "text":"Another text ",
       "color":"white",
       "underlined":true,
       "strikethrough":true
@@ -86,6 +86,9 @@ print('[' + str(a) + ', ' + str(b) + ', ' + str(c) + ']')
 
 ##### In game
 ![Example](img/screenshot.png)
+
+## Pypi
+[https://pypi.python.org/pypi/minecraftTellrawGenerator](https://pypi.python.org/pypi/minecraftTellrawGenerator)
 
 ## Authors
 
