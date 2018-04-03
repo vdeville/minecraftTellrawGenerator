@@ -1,20 +1,16 @@
 from setuptools import setup
-from os import path
-
-with open(path.join(path.abspath(path.dirname(__file__)), 'README.md'), encoding='utf-8') as f:
-    long_description = f.read()
 
 setup(
     name='minecraftTellrawGenerator',
-    version='1.0.2',
+    version='1.0.4',
     description='Easily create minecraft tellraw command',
-    long_description=long_description,
-    long_description_content_type='text/markdown',
+    long_description="View full README on `Github <https://github.com/MyTheValentinus/minecraftTellrawGenerator>`_",
+    long_description_content_type='text/x-rst',
     url='https://github.com/MyTheValentinus/minecraftTellrawGenerator',
     author='Valentin DEVILLE',
     author_email='contact@valentin-deville.eu',
     keywords='minecraft tellraw command',
-    python_requires='~=3.3',
+    python_requires='>=3',
     packages=['minecraftTellrawGenerator'],
     project_urls={
         'Bug Reports': 'https://github.com/MyTheValentinus/minecraftTellrawGenerator/issues',
