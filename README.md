@@ -34,13 +34,19 @@ b = mctellraw(
 
 c = mctellraw(text="JUST FOR FUN", obfuscated=True, bold=True)
 
+d = mctellraw(text="Click here to open my github page",
+              color='yellow',
+              url='https://github.com/MyTheValentinus',
+              hover=mctellraw(text='Click !', bold=True, color='dark_red')
+              )
+
 # Get output:
 print(a)
 # Or in certain case you need to cast
 print(str(a))
 
 # Get all messages in one:
-print(mctellraw.multiple_tellraw(a, b, c))
+print(mctellraw.multiple_tellraw(a, b, c, d))
 
 # OR old / classic method
 print('[' + str(a) + ', ' + str(b) + ', ' + str(c) + ']')

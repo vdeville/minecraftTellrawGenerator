@@ -12,6 +12,7 @@ class MinecraftTellRawGenerator:
     obfuscated = False
 
     insertion = None
+    url = None
     click = None
     hover = None
 
@@ -32,6 +33,9 @@ class MinecraftTellRawGenerator:
         self.__to_add('strikethrough', self.strikethrough)
         self.__to_add('obfuscated', self.obfuscated)
         self.__to_add('insertion', self.insertion)
+
+        if self.url is not None:
+            self.__to_add('clickEvent', {"action": "open_url", "value": self.url})
 
         if self.click is not None:
             self.__to_add('clickEvent', {"action": "run_command", "value": self.click})

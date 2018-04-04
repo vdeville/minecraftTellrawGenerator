@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='minecraftTellrawGenerator',
-    version='1.0.4',
+    version='1.0.5',
     description='Easily create minecraft tellraw command',
     long_description="View full README on `Github <https://github.com/MyTheValentinus/minecraftTellrawGenerator>`_",
     long_description_content_type='text/x-rst',
