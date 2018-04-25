@@ -1,5 +1,6 @@
 # Minecraft Tellraw generator
 
+[![PyPI version](https://img.shields.io/github/release/MyTheValentinus/minecraftTellrawGenerator.svg)](https://github.com/MyTheValentinus/minecraftTellrawGenerator/)
 [![PyPI version](https://badge.fury.io/py/minecraftTellrawGenerator.svg)](https://badge.fury.io/py/minecraftTellrawGenerator)
 
 This is simple python package that help you to create minecraft tellraw command for yours scripts written in python
